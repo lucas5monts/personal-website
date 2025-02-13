@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3e0;
+    color: #333;
+}
+/* Ensure proper spacing between paragraphs */
+p {
+    margin-bottom: 15px; /* Adds spacing between paragraphs */
+    line-height: 1.6; /* Increases line spacing for better readability */
+}
+
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #faf3e0;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #0056b3;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #faf3e0;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-section {
+    margin-top: 20px;
+}
+
+.image-section img {
+    border-radius: 5px;
+    border: 2px solid #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #007bff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #faf3e0;
+    text-decoration: none;
+}
+/* Default Light Theme (Already Applied) */
+body {
+    background-color: #FAF3E0; /* Light Beige */
+    color: #333; /* Dark Text */
+}
+
+/* Dark Theme */
+.dark {
+    background-color: #222; /* Dark Background */
+    color: #f4f4f4; /* Light Text */
+}
+
+/* Header & Navigation Adjustments */
+.dark header {
+    background-color: #333;
+}
+
+.dark nav ul {
+    background-color: #444;
+}
+
+.dark nav ul li a {
+    color: #ddd;
+}
+
+/* Footer */
+.dark footer {
+    background-color: #111;
+}
